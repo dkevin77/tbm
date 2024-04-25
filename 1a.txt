@@ -1,0 +1,22 @@
+startNewDay|17-Mar-2024
+request|TANG, Ms|90121212|3|22-Mar-2024 
+request|CHAN, Ms|90123456|4|22-Mar-2024 
+request|CHAN, Ms|90123456|10|21-Mar-2024 
+request|WHITE, Ms|90000001|30|22-Mar-2024 
+ 
+listReservations 
+ 
+cancel|22-Mar-2024|3 
+request|BLACK, Mr|93330001|30|22-Mar-2024 
+ 
+assignTable|22-Mar-2024|2|T01|T02 
+assignTable|22-Mar-2024|1|F06
+ 
+listReservations 
+listTableAllocations|22-Mar-2024 
+listTableAllocations|24-Mar-2024 
+ 
+suggestTable|21-Mar-2024|1 
+suggestTable|22-Mar-2024|4
+
+gay|21-Mar-2021|5
