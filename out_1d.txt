@@ -1,0 +1,22 @@
+Please input the file pathname: 1d.txt
+
+> startNewDay|17-Mar-2024
+
+> request|CHAN, Ms|90123456|4
+Insufficient command arguments!
+
+> request|CHAN, Ms|90123456|four|22-Mar-2024
+Wrong number format!
+
+> request|CHAN, Ms|90123456|4|16-Mar-2024
+Date has already passed!
+
+> request|CHAN, Ms|90123456|4|17-Mar-2024
+Done. Ticket code for 17-Mar-2024: 1
+
+> request|CHAN, Ms|90123456|8|17-Mar-2024
+Booking by the same person for the dining date already exists!
+
+> listReservations
+Guest Name   Phone      Request Date  Dining Date and Ticket   #Persons   Status
+CHAN, Ms     90123456   17-Mar-2024   17-Mar-2024 (Ticket 1)      4       Pending
